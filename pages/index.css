@@ -23,7 +23,7 @@
   background-image: url(../images/background_header.svg);
   box-sizing: border-box;
   position: relative;
-  background-image: cover;
+  background-size: cover;
 }
 
 .header__title {
