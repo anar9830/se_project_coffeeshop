@@ -21,23 +21,13 @@
     <div class="page">
       <p>Testing</p>
       <header class="header">
-        <nav class="nav" style="display: flex; justify-content: space-between">
+        <nav class="nav">
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="Coffeshop logo"
             class="nav__logo"
-            style="position: relative; left: -50px; height: 39px; width: 105px"
           />
-          <ul
-            class="nav__link"
-            style="
-              display: flex;
-              list-style-type: none;
-              gap: 20px;
-              padding: 0;
-              margin: 0;
-            "
-          >
+          <ul class="nav__links">
             <li>
               <a href="#recipes" class="nav__link">Recipes</a>
             </li>
@@ -98,8 +88,7 @@
           >
             <li>
               <iframe
-                width="560"
-                height="315"
+                class="recipes__video"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=eAUwyyfAlPc1WxIT"
                 title="YouTube video player"
                 frameborder="0"
@@ -114,11 +103,9 @@
             </li>
             <li>
               <iframe
-                width="560"
-                height="315"
+                class="recipes__video"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=CYU6X4HJevbfSIMk"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen

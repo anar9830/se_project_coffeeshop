@@ -60,6 +60,13 @@
   justify-content: space-between;
 }
 
+.nav__logo {
+  position: relative;
+  left: -50px;
+  height: 39px;
+  width: 105px;
+}
+
 .header__footer {
   margin-top: auto;
   display: flex;
@@ -117,4 +124,10 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+
+.recipes__video {
+  width: 480px;
+  height: 273px;
+  border: none;
 }
