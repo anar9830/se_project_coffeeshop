@@ -17,6 +17,13 @@
   font-size: 20px;
   line-height: 30px;
 }
+.form__label {
+  font-family: Inter, "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
 
 .form__input {
   display: block;
@@ -42,6 +49,7 @@
   color: #fff;
   cursor: pointer;
   transition: background-color 0.5s;
+  border-radius: 4px;
 }
 
 .form__button:hover {
