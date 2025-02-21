@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+The project would improve if I added more design elements to the recipes page as it currently looks bare in comparison to the other pages which all have circle elements or back grounds.
